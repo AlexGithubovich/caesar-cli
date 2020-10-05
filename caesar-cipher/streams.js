@@ -5,7 +5,7 @@ const { checkRequiredArgs, checkArgsForExistence } = require('./utils.js');
 
 function streams(args, caesar) {
   if (!checkRequiredArgs(args)) {
-    console.log('checkRequiredArgs');
+    console.log(' check_Required_Args');
   }
 
   const localArgs = {
